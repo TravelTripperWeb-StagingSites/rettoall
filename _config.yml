@@ -6,5 +6,13 @@ keep_files:
 rsync_copy:
 - _assets
 
+
+gems:
+- jekyll-sitemap
+keep_files:
+- assets
+rsync_copy:
+- _assets
+
 default_lang: 'en'
 languages: ['en']
